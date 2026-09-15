@@ -1,0 +1,66 @@
+# ==============================
+# k6 Lab Project - .gitignore
+# NOTE: results/*.txt and screenshots are REQUIRED by the assignment.
+# Do NOT ignore the results/ folder — it must be committed.
+# ==============================
+
+# ==============================
+# OS-generated files
+# ==============================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Editor / IDE files
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ==============================
+# Node.js (if using a local Express server for Step 5)
+# ==============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# ==============================
+# Python (if using Flask for Step 5)
+# ==============================
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# ==============================
+# k6 binary artifacts (if built/installed locally in project dir)
+# ==============================
+k6
+
+# ==============================
+# Temporary / scratch files
+# (keep this narrow — do NOT add results/ or *.txt broadly,
+#  since run-05vu.txt, run-30vu.txt, run-100vu.txt must be committed)
+# ==============================
+*.tmp
+*.bak
+scratch/
+
+# ==============================
+# Environment / secrets
+# ==============================
+.env
+.env.local
+*.pem
+*.key
